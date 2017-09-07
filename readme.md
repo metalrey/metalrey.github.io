@@ -1,3 +1,3 @@
 MetalRey
 
-http://metalrey.com.br
+https://metalrey.com.br
