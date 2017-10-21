@@ -1,3 +1,5 @@
 name: MetalRey
-description: MetalRey
+description: Soluções inteligentes em metal e alumínio para sua obra. Projetos Comerciais, Industriais, Residenciais e Coberturas. Peça um orçamento online.
 baseurl: ''
+plugins:
+  - jekyll-sitemap
