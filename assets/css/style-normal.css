@@ -61,3 +61,51 @@
 	#footer .major h2 {
 		font-size: 1.5em;
 	}
+
+
+/* Whastapp Button */
+.wacap {
+  width: 80px;
+  height: 80px;
+  margin: 80px auto;
+  font-size: 55px;
+  background: #3BBF26;
+  text-align: center;
+  line-height: 85px;
+  border: 7px solid white;
+  border-radius: 100px;
+  position: relative;
+}
+.wacap:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 25px solid #3BBF26;
+  position: absolute;
+  bottom: -23px;
+  left: -3px;
+  -webkit-transform: rotate(35deg);
+  -moz-transform: rotate(35deg);
+  -ms-transform: rotate(35deg);
+  -o-transform: rotate(35deg);
+  transform: rotate(35deg);
+}
+.wacap:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: 12px solid transparent;
+  border-top: 20px solid white;
+  position: absolute;
+  bottom: -23px;
+  left: -3px;
+  -webkit-transform: rotate(35deg) scale(3);
+  -moz-transform: rotate(35deg) scale(3);
+  -ms-transform: rotate(35deg) scale(3);
+  -o-transform: rotate(35deg) scale(3);
+  transform: rotate(35deg) scale(3);
+  z-index: -1;
+}
